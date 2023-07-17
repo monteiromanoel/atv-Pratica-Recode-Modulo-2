@@ -1,6 +1,27 @@
+* {
+    margin: 0;
+}
 
+#datasContainer {
+    padding: 10px;
+}
 
-#menu {
-    display: flex;
-    
+#simboloData {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+input[type="date"] {
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    font-family: monospace;
+    color: rgb(128, 128, 128);
+}
+
+#datasContainer > input {
+    width: 140px;
+    margin: 0;
+    width: fit-content;
+
 }
