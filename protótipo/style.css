@@ -9,6 +9,14 @@
     padding: 0;
 }
 
+.imagemPrincipal {
+    background-image: url(./imagens/praia-palmeiras-wallpaper.jpg); 
+    height: 69vh; 
+    border-radius: 10px; 
+    margin-top: 10px; 
+    background-position: center; 
+}
+
 #datasContainer {
     padding: 10px;
 }
@@ -30,6 +38,10 @@ input[type="date"] {
     width: 140px;
     margin: 0;
     width: fit-content;
+}
+
+.mx-auto {
+    margin-top: -3rem!important;
 }
 
 .aviso {
