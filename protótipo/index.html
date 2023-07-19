@@ -17,88 +17,123 @@
 <body>
 
     <!-- Menu Principal-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" id="menu">
-        <div class="container-fluid">
-            <a href="index.html" class="navbar-brand fs-2"> <img src="./imagens/voo-de-aviao.png" width="50" height="50" alt=""> Agência de Viagens</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse flex-row-reverse" id="navbarContent">
-                <ul class="navbar-nav fs-5 d-flex align-items-center">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link active"> <i class="fas fa-home"></i> Página Principal</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link"> <i class="fas fa-map-marked-alt"></i> Destino</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link"> <i class="fas fa-tags"></i> Promoções</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link"><i class="fas fa-phone"></i> Contato</a>
-                    </li>
-                </ul>
-            </div>    
-        </div>
-    </nav>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary" id="menu">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand fs-2"> <img src="./imagens/voo-de-aviao.png" width="50" height="50" alt=""> Agência de Viagens</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarContent">
+                    <ul class="navbar-nav fs-5 d-flex align-items-center">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active"> <i class="fas fa-home"></i> Página Principal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"> <i class="fas fa-map-marked-alt"></i> Destino</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"> <i class="fas fa-tags"></i> Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i class="fas fa-phone"></i> Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
 
-    <main class="container-fluid">
-
+    <main class="container-fluid mt-5">
         <!-- Campo de Pesquisa de Viagens -->
-        <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white opacity" style="background-image: url(./imagens/praia-palmeiras-wallpaper.jpg); height: 65vh; border-radius: 10px; margin-top: 10px; background-position: center; ">
-            <h1 class="mb-3 h2">Encontre sua viagem dos sonhos!</h1>
+        <div class="bg-image p-5 text-center shadow-1-strong rounded mb-3 text-white opacity" style="background-image: url(./imagens/praia-palmeiras-wallpaper.jpg); height: 65vh; border-radius: 10px; margin-top: 10px; background-position: center; ">
+        <h1 class="mb-3 h2">Encontre sua viagem dos sonhos!</h1>
         
-            <form action="">
-                <div class="input-group row">
-                    <div class="form-group">
-                        <div class="   col-md-6 offset-md-3">
-                            <input type="text" name="ida" class="form-control" placeholder=" ORIGEM - Digite seu local de IDA" required="" >
-                        </div>
-                    </div>
-                    <label for="#"><i class="fas fa-exchange-alt fs-1"></i></label>
-                
-                    <div class="form-group">
-                        <div class="col-md-6 offset-md-3">
-                            <input type="text" name="destino" class="form-control" placeholder=" Destino - Digite seu local de VOLTA" required="" >
-                        </div>
-                    </div>
-                
-                    <div class="form-group" id="datasContainer">
-                        <span>
-                            <label for="dataIda" id="simboloData">
-                                <i class="fas fa-plane-departure fs-3"></i>
-                            </label>
-                            <input type="date" name="dataIda" id="dataIda">
-                        </span>
-                        <br>
-                        <br>
-                        <span>
-                            <label for="dataVolta" id="simboloData">
-                                <i class="fas fa-plane-arrival fs-3"></i>
-                            </label>
-                            <input type="date" name="dataVolta" id="dataVolta">
-                        </span>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-md-6 offset-md-3">
-                            <div class="form-check">
-                                <label>
-                                    <input class="form-check-input" type="checkbox" value=""> Viagem de serviço
-                                </label>
-                            </div>
-                            <br>
-                            <input type="submit" value="  Buscar Pacotes de Viagem  " class="btn btn-warning" id="btnBuscaPct">
-                        </div>
+        <form action="POST">
+            <div class="input-group row">
+                <div class="form-group">
+                    <div class="   col-md-6 offset-md-3">
+                        <input type="text" name="ida" class="form-control" placeholder=" ORIGEM - Digite seu local de IDA" required="" >
                     </div>
                 </div>
-            </form>
-        
-        
+                <label for="#"><i class="fas fa-exchange-alt fs-1"></i></label>
+            
+                <div class="form-group">
+                    <div class="col-md-6 offset-md-3">
+                        <input type="text" name="destino" class="form-control" placeholder=" Destino - Digite seu local de VOLTA" required="" >
+                    </div>
+                </div>
+                
+                <div class="form-group" id="datasContainer">
+                    <span>
+                        <label for="dataIda" id="simboloData">
+                            <i class="fas fa-plane-departure fs-3"></i>
+                        </label>
+                        <input type="date" name="dataIda" id="dataIda">
+                    </span>
+                    <br>
+                    <br>
+                    <span>
+                        <label for="dataVolta" id="simboloData">
+                            <i class="fas fa-plane-arrival fs-3"></i>
+                        </label>
+                        <input type="date" name="dataVolta" id="dataVolta">
+                    </span>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-6 offset-md-3">
+                        <div class="form-check">
+                            <label>
+                                <input class="form-check-input" type="checkbox" value=""> Viagem de serviço
+                            </label>
+                        </div>
+                        <br>
+                        <input type="submit" value="  Buscar Pacotes de Viagem  " class="btn btn-warning btn-lg shadow" id="btnBuscaPct">
+                    </div>
+                </div>
+            </div>
+        </form>
         </div>
 
         
-
+        <section class="container">
+            <div class="row ml-5 mr-5 mx-auto" id="conteudoAvisos">
+                <div class="col m-3 p-2 border rounded shadow aviso">
+                    <i class="fas fa-luggage-cart fs-2"></i> 
+                    <h5 class="text-white fs-4">Promoções</h5>
+                    <p>
+                        Promoções exclusivas
+                    </p>
+                </div>
+                <div class="col m-3 border rounded p-2 shadow aviso">
+                    <i class="fas fa-umbrella-beach fs-2"></i>
+                    <h5 class="text-white fs-4">Melhores Localizações</h5>
+                    <p>
+                        Para descansar e se divertir
+                    </p>
+                </div>
+                <div class="col m-3 border rounded p-2 shadow aviso">
+                    <i class="fas fa-tags fs-2"></i>
+                    <h5 class="text-white fs-4">Parcelamento</h5>
+                    <p class="m-0">
+                        Viagens em até 10x sem juros*
+                    </p>
+                    <span class="text-muted m-0 p-0">* consulte</span>
+                </div>
+                <div class="col m-3 border rounded p-2 shadow aviso">
+                    <i class="fas fa-handshake fs-2"></i>
+                    <h5 class="text-white fs-4">Viagens de Negócios</h5>
+                    <p>
+                        Várias opções empresariais
+                    </p>
+                </div>
+            </div>
         </section>
+       
     </main>
+
+    <footer>
+        
+    </footer>
 </body>
 </html>

@@ -1,5 +1,12 @@
+:root {
+    --primary: #0d6efd;
+    --secondary: #6c757d;
+    --warning: #ffc107;
+}
+
 * {
     margin: 0;
+    padding: 0;
 }
 
 #datasContainer {
@@ -23,5 +30,22 @@ input[type="date"] {
     width: 140px;
     margin: 0;
     width: fit-content;
+}
 
+.aviso {
+    text-align: center;
+    transition: 0.5s ease;
+    background-color: var(--warning);
+}
+
+.aviso:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+    box-shadow: none;
+    background-color: #0d6efd;
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
 }
