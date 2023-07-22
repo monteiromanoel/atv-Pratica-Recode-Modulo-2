@@ -88,9 +88,12 @@ input[type="date"] {
     transform: scale(1.15);
 }
 
-
 /* Página Destino */
 
 a > .btnPromocao {
     color: blue;
+}
+
+#newsletter {
+    background-image: url(./imagens/travel-bg.jpg);
 }

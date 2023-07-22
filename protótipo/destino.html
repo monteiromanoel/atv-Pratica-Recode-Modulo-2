@@ -29,10 +29,10 @@
                 <div class="collapse navbar-collapse flex-row-reverse" id="navbarContent">
                     <ul class="navbar-nav fs-5 d-flex align-items-center">
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link active"> <i class="fas fa-home"></i> Página Principal</a>
+                            <a href="index.html" class="nav-link"> <i class="fas fa-home"></i> Página Principal</a>
                         </li>
                         <li class="nav-item">
-                            <a href="destino.html" class="nav-link"> <i class="fas fa-map-marked-alt"></i> Destino</a>
+                            <a href="destino.html" class="nav-link active"> <i class="fas fa-map-marked-alt"></i> Destino</a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link"> <i class="fas fa-tags"></i> Promoções</a>
@@ -46,8 +46,15 @@
         </nav>
     </header>
 
+    <!-- Área Principal -->
     <main class="container-fluid">
-        <h1 class="text-center">TITULO DO SITE</h1>
+        <div class="container input-group mb-4">
+            <div class="input-group">
+                <input type="search" class="form-control rounded" placeholder="Pesquisar Destinos" aria-label="Pesquisar Destinos" aria-describedby="search-addon" />
+                <button type="button" class="btn btn-primary">Pesquisar</button>
+            </div>
+        </div>
+        <h1 class="text-center">As Melhores Localizações</h1>
         <section class="container">
             <h2> Viagens Internacionais </h2>
             <div class="row row-cols-2 row-cols-md-4 g-4 mt-3">
@@ -287,6 +294,18 @@
             </div>
         </section>  
     </main>
+
+    <!-- Newsletter -->
+    <section class="container p-4">
+        <div class="form-control row d-flex justify-content-center p-3 bg-info bg-image img-fluid" id="newsletter">
+            <h5 class="text-center">Receba Ofertas por E-mail</h5>
+            <div class="input-group p-3">
+                <input type="email" class="form-control rounded" placeholder="Insira seu melhor e-mail aqui!" aria-label="Insira seu melhor e-mail aqui!" aria-describedby="search-addon" />
+                <button type="submit" class="btn btn-lg btn-primary">Enviar</button>
+            </div>
+        </div>    
+        
+    </section>
 
     <footer>
         <section class="container my-4">
