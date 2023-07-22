@@ -1,12 +1,22 @@
 :root {
     --primary: #0d6efd;
     --secondary: #6c757d;
+    --success: #14A44D;
+    --danger: #DC4C64;
     --warning: #ffc107;
+    --info: #54B4D3;
+    --light: #FBFBFB;
+    --dark: #332D2D;
+
 }
 
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    padding-top: 70px;
 }
 
 .imagemPrincipal {
@@ -57,4 +67,30 @@ input[type="date"] {
 
 .nav-link:hover {
     text-decoration: underline;
+}
+
+.linksFooter {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.linksFooter:hover {
+    text-decoration: underline;
+    color: var(--primary);
+}
+
+.redeSocial {
+    cursor: pointer;
+}
+
+.redeSocial:hover {
+    color: var(--primary);
+    transform: scale(1.15);
+}
+
+
+/* Página Destino */
+
+a > .btnPromocao {
+    color: blue;
 }
