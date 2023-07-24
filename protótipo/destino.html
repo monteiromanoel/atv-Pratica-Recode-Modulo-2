@@ -20,7 +20,7 @@
 
     <!-- Menu Principal-->
     <header class="container mb-3">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary shadow" id="menu">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary shadow-sm" id="menu">
             <div class="container-fluid">
                 <a href="index.html" class="navbar-brand fs-2"> <img src="./imagens/voo-de-aviao.png" width="50" height="50" alt=""> Agência de Viagens</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,13 +50,18 @@
     <main class="container-fluid">
         <div class="container input-group mb-4">
             <div class="input-group">
-                <input type="search" class="form-control rounded" placeholder="Pesquisar Destinos" aria-label="Pesquisar Destinos" aria-describedby="search-addon" />
-                <button type="button" class="btn btn-primary">Pesquisar</button>
+                <input type="search" class="form-control rounded my-4" placeholder="Pesquisar Destinos" aria-label="Pesquisar Destinos" aria-describedby="search-addon" />
+                <button type="button" class="btn btn-primary my-4">Pesquisar Destino</button>
             </div>
         </div>
-        <h1 class="text-center">As Melhores Localizações</h1>
+        <div class="container-full text-center mb-5">
+            <h1 class="text-center text-primary">As Melhores Localizações</h1>
+            <h1 class="fs-3">
+                Visite os melhores locais com os melhores preços, nacional ou internacional!
+            </h1>
+        </div>
         <section class="container">
-            <h2> Viagens Internacionais </h2>
+            <h2 class="text-success"> Viagens Internacionais </h2>
             <div class="row row-cols-2 row-cols-md-4 g-4 mt-3">
                 <div class="col">
                     <div class="card">
@@ -67,20 +72,7 @@
                             <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
                             <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user"></i> 2 pessoas</p>
                             <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
-                            <a href="" class="btn btn-warning fw-semibold btnPromocao">Acessar Promoção</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-header bg-success">
-                            <h5 class="card-title text-white text-center"> <i class="fas fa-plane"></i></i> Veneza - Itália </h5>
-                        </div>
-                        <div class="card-body text-center">
-                            <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
-                            <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user-friends"></i> 2 pessoas</p>
-                            <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
-                            <a href="" class="btn btn-warning fw-semibold btnPromocao">Acessar Promoção</a>
+                            <a href="" class="btn btn-warning px-5 fw-semibold btnPromocao"><i class="fas fa-arrow-right fs-3"></i></a>
                         </div>
                     </div>
                 </div>
@@ -88,13 +80,13 @@
                 <div class="col">
                     <div class="card">
                         <div class="card-header bg-success">
-                            <h5 class="card-title text-white text-center"> <i class="fas fa-plane"></i></i> Veneza - Itália </h5>
+                            <h5 class="card-title text-white text-center"> <i class="fas fa-plane"></i></i> Miami - Flórida </h5>
                         </div>
                         <div class="card-body text-center">
-                            <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
-                            <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user-friends"></i> 2 pessoas</p>
-                            <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
-                            <a href="" class="btn btn-warning fw-semibold btnPromocao">Acessar Promoção</a>
+                            <img src="./imagens/viagens/miami-1-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
+                            <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 4 dias - <i class="fas fa-user"></i> 1 pessoa</p>
+                            <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$298,99</span></p>
+                            <a href="" class="btn btn-warning px-5 fw-semibold btnPromocao"><i class="fas fa-arrow-right fs-3"></i></a>
                         </div>
                     </div>
                 </div>
@@ -102,13 +94,27 @@
                 <div class="col">
                     <div class="card">
                         <div class="card-header bg-success">
-                            <h5 class="card-title text-white text-center"> <i class="fas fa-plane"></i></i> Veneza - Itália </h5>
+                            <h5 class="card-title text-white text-center"> <i class="fas fa-plane"></i></i> Roma - Itália </h5>
                         </div>
                         <div class="card-body text-center">
-                            <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
+                            <img src="./imagens/viagens/roma-1-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
+                            <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 11 dias - <i class="fas fa-user-friends"></i> 2 pessoas</p>
+                            <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$527,90</span></p>
+                            <a href="" class="btn btn-warning px-5 fw-semibold btnPromocao"><i class="fas fa-arrow-right fs-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header bg-success">
+                            <h5 class="card-title text-white text-center"> <i class="fas fa-plane"></i></i> Lisboa - Portugal </h5>
+                        </div>
+                        <div class="card-body text-center">
+                            <img src="./imagens/viagens/lisboa-1-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
                             <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user-friends"></i> 2 pessoas</p>
-                            <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
-                            <a href="" class="btn btn-warning fw-semibold btnPromocao">Acessar Promoção</a>
+                            <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$698,00</span></p>
+                            <a href="" class="btn btn-warning px-5 fw-semibold btnPromocao"><i class="fas fa-arrow-right fs-3"></i></a>
                             </div>
                         </div>
                     </div>
@@ -119,13 +125,13 @@
                 <div class="col">
                     <div class="card">
                         <div class="card-header bg-success">
-                            <h5 class="card-title text-white text-center"> <i class="fas fa-plane"></i></i> Veneza - Itália </h5>
+                            <h5 class="card-title text-white text-center"> <i class="fas fa-plane"></i></i> Nova Zelândia - Oceania </h5>
                         </div>
                         <div class="card-body text-center">
-                            <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
-                            <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user"></i> 2 pessoas</p>
-                            <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
-                            <a href="" class="btn btn-warning fw-semibold btnPromocao">Acessar Promoção</a>
+                            <img src="./imagens/viagens/nz-2-2.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
+                            <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 12 dias - <i class="fas fa-user"></i> 1 pessoa</p>
+                            <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$1423,00</span></p>
+                            <a href="" class="btn btn-warning px-5 fw-semibold btnPromocao"><i class="fas fa-arrow-right fs-3"></i></a>
                         </div>
                     </div>
                 </div>
@@ -138,21 +144,7 @@
                             <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
                             <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user-friends"></i> 2 pessoas</p>
                             <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
-                            <a href="" class="btn btn-warning fw-semibold btnPromocao">Acessar Promoção</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card">
-                        <div class="card-header bg-success">
-                            <h5 class="card-title text-white text-center"> <i class="fas fa-plane"></i></i> Veneza - Itália </h5>
-                        </div>
-                        <div class="card-body text-center">
-                            <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
-                            <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user-friends"></i> 2 pessoas</p>
-                            <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
-                            <a href="" class="btn btn-warning fw-semibold btnPromocao">Acessar Promoção</a>
+                            <a href="" class="btn btn-warning px-5 fw-semibold btnPromocao"><i class="fas fa-arrow-right fs-3"></i></a>
                         </div>
                     </div>
                 </div>
@@ -166,7 +158,21 @@
                             <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
                             <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user-friends"></i> 2 pessoas</p>
                             <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
-                            <a href="" class="btn btn-warning fw-semibold btnPromocao">Acessar Promoção</a>
+                            <a href="" class="btn btn-warning px-5 fw-semibold btnPromocao"><i class="fas fa-arrow-right fs-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header bg-success">
+                            <h5 class="card-title text-white text-center"> <i class="fas fa-plane"></i></i> Veneza - Itália </h5>
+                        </div>
+                        <div class="card-body text-center">
+                            <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
+                            <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user-friends"></i> 2 pessoas</p>
+                            <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
+                            <a href="" class="btn btn-warning px-5 fw-semibold btnPromocao"><i class="fas fa-arrow-right fs-3"></i></a>
                             </div>
                         </div>
                     </div>
@@ -187,7 +193,7 @@
                             <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
                             <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user"></i> 2 pessoas</p>
                             <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
-                            <a href="" class="btn btn-warning fw-semibold btnPromocao">Acessar Promoção</a>
+                            <a href="" class="btn btn-warning px-5 fw-semibold btnPromocao"><i class="fas fa-arrow-right fs-3"></i></a>
                         </div>
                     </div>
                 </div>
@@ -200,21 +206,7 @@
                             <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
                             <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user-friends"></i> 2 pessoas</p>
                             <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
-                            <a href="" class="btn btn-warning fw-semibold btnPromocao">Acessar Promoção</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card">
-                        <div class="card-header bg-success">
-                            <h5 class="card-title text-white text-center"> <i class="fas fa-plane"></i></i> Veneza - Itália </h5>
-                        </div>
-                        <div class="card-body text-center">
-                            <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
-                            <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user-friends"></i> 2 pessoas</p>
-                            <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
-                            <a href="" class="btn btn-warning fw-semibold btnPromocao">Acessar Promoção</a>
+                            <a href="" class="btn btn-warning px-5 fw-semibold btnPromocao"><i class="fas fa-arrow-right fs-3"></i></a>
                         </div>
                     </div>
                 </div>
@@ -228,7 +220,21 @@
                             <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
                             <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user-friends"></i> 2 pessoas</p>
                             <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
-                            <a href="" class="btn btn-warning fw-semibold btnPromocao">Acessar Promoção</a>
+                            <a href="" class="btn btn-warning px-5 fw-semibold btnPromocao"><i class="fas fa-arrow-right fs-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header bg-success">
+                            <h5 class="card-title text-white text-center"> <i class="fas fa-plane"></i></i> Veneza - Itália </h5>
+                        </div>
+                        <div class="card-body text-center">
+                            <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
+                            <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user-friends"></i> 2 pessoas</p>
+                            <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
+                            <a href="" class="btn btn-warning px-5 fw-semibold btnPromocao"><i class="fas fa-arrow-right fs-3"></i></a>
                             </div>
                         </div>
                     </div>
@@ -245,7 +251,7 @@
                             <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
                             <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user"></i> 2 pessoas</p>
                             <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
-                            <a href="" class="btn btn-warning fw-semibold btnPromocao">Acessar Promoção</a>
+                            <a href="" class="btn btn-warning px-5 fw-semibold btnPromocao"><i class="fas fa-arrow-right fs-3"></i></a>
                         </div>
                     </div>
                 </div>
@@ -258,21 +264,7 @@
                             <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
                             <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user-friends"></i> 2 pessoas</p>
                             <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
-                            <a href="" class="btn btn-warning fw-semibold btnPromocao">Acessar Promoção</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card">
-                        <div class="card-header bg-success">
-                            <h5 class="card-title text-white text-center"> <i class="fas fa-plane"></i></i> Veneza - Itália </h5>
-                        </div>
-                        <div class="card-body text-center">
-                            <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
-                            <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user-friends"></i> 2 pessoas</p>
-                            <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
-                            <a href="" class="btn btn-warning fw-semibold btnPromocao">Acessar Promoção</a>
+                            <a href="" class="btn btn-warning px-5 fw-semibold btnPromocao"><i class="fas fa-arrow-right fs-3"></i></a>
                         </div>
                     </div>
                 </div>
@@ -286,7 +278,21 @@
                             <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
                             <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user-friends"></i> 2 pessoas</p>
                             <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
-                            <a href="" class="btn btn-warning fw-semibold btnPromocao">Acessar Promoção</a>
+                            <a href="" class="btn btn-warning px-5 fw-semibold btnPromocao"><i class="fas fa-arrow-right fs-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header bg-success">
+                            <h5 class="card-title text-white text-center"> <i class="fas fa-plane"></i></i> Veneza - Itália </h5>
+                        </div>
+                        <div class="card-body text-center">
+                            <img src="./imagens/viagens/veneza-1.jpg" class="card-img rounded img-fluid img-thumbnail border-0" alt="">
+                            <p class="card-text mt-1"> <i class="fas fa-calendar-alt"></i> 5 dias - <i class="fas fa-user-friends"></i> 2 pessoas</p>
+                            <p class="card-text"><span class="text-secondary fs-3">10x</span> <span class="text-primary fs-2">R$742,00</span></p>
+                            <a href="" class="btn btn-warning px-5 fw-semibold btnPromocao"><i class="fas fa-arrow-right fs-3"></i></a>
                             </div>
                         </div>
                     </div>
