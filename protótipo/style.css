@@ -94,6 +94,13 @@ input[type="date"] {
     background-image: url(./imagens/travel-bg.jpg);
 }
 
+mark {
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
+    opacity: 0.9;
+}
+
 .btnPromocao:hover {
     color: var(--light);
     background-color: var(--primary);
