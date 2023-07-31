@@ -149,10 +149,11 @@ mark {
     top: 50%;
     transform: translateY(-50%);
   }
+  
   @media (min-width: 768px) {
     .carousel-item {
       margin-right: 0;
-      flex: 0 0 33.333333%;
+      flex: 0 0 30%;
       display: block;
     }
     .carousel-inner {
@@ -175,13 +176,4 @@ mark {
     }
   }
 
-  .card-tag {
-    position: absolute;
-    background: tomato;
-    color: white;
-    right: 0;
-    top: 15px;
-    border-radius: 8px 0 0 8px;
-    padding: 10px;
-    box-shadow: 1px 2px 5px -2px #222;
-}
+ 
