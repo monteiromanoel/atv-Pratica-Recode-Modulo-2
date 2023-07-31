@@ -19,7 +19,7 @@
 <body>
 
     <!-- Menu Principal-->
-    <header class="container mb-3">
+    <header class="container">
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary shadow-sm" id="menu">
             <div class="container-fluid">
                 <a href="index.html" class="navbar-brand fs-2"> <img src="./imagens/voo-de-aviao.png" width="50" height="50" alt=""> Recode Viagens</a>
@@ -46,14 +46,20 @@
         </nav>
     </header>
 
+    <!-- Hero -->
+    <div class="text-center bg-image p-5 hero">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <div class="d-flex justify-content-center align-items-center h-100 w-100">
+                <div class="text-white">
+                    <h1 class="mb-3">#Promoções</h1>
+                    <h4 class="mb-3">Aproveite as melhores condições em pacotes de viagens!</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Área Principal -->
     <main class="container-fluid">
-        <div class="container-full text-center mb-5">
-            <h1 class="text-center text-primary">#Promoções</h1>
-            <h1 class="fs-3">
-                Aproveite as melhores condições em pacotes de viagens!
-            </h1>
-        </div>
         <section class="container">
             <div class="input-group">
                 <input type="search" class="form-control my-4" placeholder="Pesquisar Destinos" aria-label="Pesquisar Destinos" aria-describedby="search-addon" />
@@ -108,14 +114,16 @@
                 </div>
             </div>
 
-            <h2 class="text-success"> Pacotes Internacionais </h2>
+            <hr class="mt-5 mb-2">
+
+            <h2 class="text-success mt-3"> Pacotes <span class="text-warning">Nacionais</span> </h2>
             <div class="row row-cols-2 row-cols-md-4 g-4 mt-3">
                 <div class="col">
                     <div class="card">
-                        <img src="./imagens/viagens/miami-1-1.jpg" class="card-img-top img-fluid" alt="">
+                        <img src="./imagens/viagens/ch-dos-veadeiros-goias-1-1.jpeg" class="card-img-top img-fluid" alt="">
                         <div class="card-body text-center">
-                            <h5 class="card-title">Título do Card</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">Chapada dos Veadeiros - Goiás</h5>
+                            <p class="card-text">Pacote familiar de 7 dias, com visitas a pontos turísticos e 2 dias livres para descanso.</p>
                             <a href="" class="btn btn-warning px-5 fw-semibold btnPromocao">Conferir Pacote</a>
                         </div>
                     </div>

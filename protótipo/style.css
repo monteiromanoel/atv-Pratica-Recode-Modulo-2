@@ -108,6 +108,12 @@ input[type="date"] {
 
 /* Página Destino */
 
+.hero {
+    background-image: url(./imagens/vetor-hero.jpg);
+    background-position: center;
+    
+}
+
 #newsletter {
     background-image: url(./imagens/travel-bg.jpg);
 }
