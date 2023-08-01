@@ -135,4 +135,6 @@ mark {
     padding-top: 0;
 }
 
-
+.card-tag {
+    background-color: tomato;
+}
