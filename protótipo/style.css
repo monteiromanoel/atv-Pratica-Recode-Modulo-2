@@ -138,3 +138,9 @@ mark {
 .card-tag {
     background-color: tomato;
 }
+
+/* Página Contato */
+
+#formularioContato {
+    background-color: rgba(221, 221, 221, 0.555);
+}
