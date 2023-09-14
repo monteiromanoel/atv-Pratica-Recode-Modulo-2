@@ -7,6 +7,7 @@
     --info: #54B4D3;
     --light: #FBFBFB;
     --dark: #332D2D;
+    --color-background: #f6f6f9;
 
 }
 
@@ -17,10 +18,11 @@
 
 body {
     padding-top: 70px;
+    background-color: var(--color-background);
 }
 
 .imagemPrincipal {
-    background-image: url(./imagens/praia-palmeiras-wallpaper.jpg); 
+    background-image: url(/imagens/praia-palmeiras-wallpaper.jpg); 
     background-position: center; 
     background-repeat: no-repeat;
 }
@@ -107,13 +109,26 @@ input[type="date"] {
 }
 
 .hero {
-    background-image: url(./imagens/vetor-hero.jpg);
+    background-image: url(../imagens/vetor-hero.jpg);
     background-position: center;
     
 }
 
 #newsletter {
-    background-image: url(./imagens/travel-bg.jpg);
+    background-image: url(../imagens/travel-bg.jpg);
+}
+
+#newsletterIndex {
+    background-image: url(/imagens/travel-bg.jpg);
+}
+
+.textoEmail {
+    text-decoration: underline;
+    color: white!important;
+    background: rgba(45, 164, 122, .9);
+    width: fit-content;
+    border-radius: 8px;
+    padding: 8px;
 }
 
 /* Página Destino */
