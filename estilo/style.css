@@ -42,6 +42,7 @@ input[type="date"] {
     border: none;
     font-family: monospace;
     color: rgb(128, 128, 128);
+    cursor: text;
 }
 
 #datasContainer > input {
