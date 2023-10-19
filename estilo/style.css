@@ -22,7 +22,7 @@ body {
 }
 
 .imagemPrincipal {
-    background-image: url(../imagens/praia-palmeiras-wallpaper.jpg); 
+    background-image: url(.././imagens/praia-palmeiras-wallpaper.jpg); 
     background-position: center; 
     background-repeat: no-repeat;
 }
@@ -110,17 +110,17 @@ input[type="date"] {
 }
 
 .hero {
-    background-image: url(../imagens/vetor-hero.jpg);
+    background-image: url(.././imagens/vetor-hero.jpg);
     background-position: center;
     
 }
 
 #newsletter {
-    background-image: url(../imagens/travel-bg.jpg);
+    background-image: url(.././imagens/travel-bg.jpg);
 }
 
 #newsletterIndex {
-    background-image: url(/imagens/travel-bg.jpg);
+    background-image: url(.././imagens/travel-bg.jpg);
 }
 
 .textoEmail {
